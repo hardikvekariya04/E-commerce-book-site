@@ -1,0 +1,112 @@
+.email_verify_otp1{
+    display: none;
+}
+#form_control2{
+    width: 74%;
+    border: none;
+    padding: 15px 15px;
+    height: 50px;
+    border-radius: 20px;
+}
+#form_control2:focus{
+    border: none;
+    box-shadow: 3px 3px 5px #999;
+}
+#form_control2::placeholder{
+    color: rgb(92, 91, 91);
+    text-transform: capitalize;
+}
+#otp_button1{
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #e93700;
+    border-radius:20px;
+    transition:all 0.3s;
+    border:none;
+    cursor: pointer;
+}
+#otp_button1:hover,#otp_button1:focus{
+    background-color: #333;
+}
+.email11{
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    left:45px;
+    top:180px;
+}
+#email_otp_result{
+    color:rgb(255, 98, 98);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 7px 1px gray;
+    position: relative;
+    left:-50px;
+
+}
+.error_msg_email{
+    color:rgb(255, 98, 98);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 7px 1px gray;
+    position: relative;
+    left:-40px;
+}
+
+
+.background_image2{
+    position: relative;
+    top:-12px;
+}
+.background_image2 {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+.background_image2 img{
+    width:100vw;
+    overflow-x: hidden;
+    height: 500px;
+}
+.main_card:hover{
+    box-shadow:1px 1px 7px 1px black;
+}
+body{
+    width:100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}

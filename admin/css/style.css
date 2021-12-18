@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*ADMIN LOGIN*/
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:150px;
+}
+.login{
+    padding: 40px;
+    background: linear-gradient(30deg,#ebe9e9 49%, #e4e4e4 50%);
+    box-shadow: 0 0 20px -10px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    padding: 50px 40px;
+    text-align: center;
+    width: 80vh;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:-15px 0px 30px 0px;
+    color:rgb(202, 89, 89);
+}
+.loginuser{
+    margin: 10px;
+    width: 20vw;
+    display: inline-block;
+    border: none;
+    padding: 15px 15px;
+    height: 40px;
+    border-radius: 10px;
+}
+.loginuser:hover{
+    border: none;
+    box-shadow: 0px 0px 7px #575656;
+}
+label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(102, 97, 97);
+    margin-right: 30px;
+}
+.btn{
+    display: block;
+    position: relative;
+    left: 40%;
+    top:20px;
+    font-size: 20px;
+    height: 5.5vh;
+    width: 5.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color:#FF5733;
+}
+.btn:hover{
+    background-color: black;
+}
+.msg{
+    color:blue;
+    display: flex;
+}

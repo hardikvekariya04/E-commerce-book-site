@@ -1,0 +1,53 @@
+.main_navbar1 li.drop{
+    position: relative;
+}
+.main_navbar1 li.drop ul.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+.scroll-header .main_navbar1 li.drop ul.dropdown {
+  top: 120%;
+}
+.scroll-header .main_navbar1 li.drop:hover ul.dropdown {
+  top: 100%;
+}
+.main_navbar1 li.drop:hover ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main_navbar1 ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+.main_navbar1 ul.dropdown li a {
+    background: #f00000 none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+    padding: 9px 18px;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+.main_navbar1 li.drop ul.dropdown li:hover > a {
+    background: #fafafa none repeat scroll 0 0;
+    color: #c43b68;
+}
+.main_navbar1 li.drop ul.dropdown li {
+    margin: 0;
+}
